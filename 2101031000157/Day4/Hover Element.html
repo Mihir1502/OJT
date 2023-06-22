@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS Hover Element
+        </title>
+        <style type="text/css";>
+            #MainUL li ul li{display:none;}
+            #MainUL li:hover ul li {display:block;}
+            #MainUL li:hover ul li ul li {display:none;}
+            #MainUL li ul li:hover ul li {display:block;}
+            #MainUL li ul li:hover ul li ul li {display:none;}
+            #MainUL li ul li ul li:hover ul li {display:block;}
+        </style>
+    </head>
+    <body>
+        <ul id="MainUL">
+            <li>
+                GOGGLE
+                <ul>
+                    <li>
+                        sign in                   
+                    </li>
+                    <li>
+                        sign up
+                        <ul>
+                            <li>
+                                create new
+                            </li>
+                            <li>
+                                register
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                AMAZONE
+                <ul>
+                    <li>aws</li>
+                    <li>shopping center</li>
+                </ul>
+            </li>
+            <li>
+                YOUTUBE
+                <ul>
+                    <li>
+                        create channel
+                    </li>
+                    <li>
+                        watch video
+                    </li>
+                </ul>
+            </li>
+            <li>
+                FACEBOOK
+                <ul>
+                    <li>
+                        login
+                    </li>
+                    <li>
+                        logout
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>
